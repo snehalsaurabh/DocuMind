@@ -1,0 +1,9 @@
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+chunk_size: 1000
+chunk_overlap: 200
+vector_store_path: data/processed/faiss_index.bin
+embeddings_path: data/processed/embeddings.pkl
+supported_file_types:
+  - pdf
+  - docx
+retrieval_top_k: 5
